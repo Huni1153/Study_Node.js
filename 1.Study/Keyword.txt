@@ -1,0 +1,9 @@
+● Java의 Keyword를 영문으로 사용하는 것에 익숙해 질 것.
+
+	- 선언문 (declaration statement) : 변수를 선언하는 명령문
+
+	- 대입문 (assignment statement) : 변수에 값을 대입하는 명령문
+
+	- 객체 (object)
+
+	- 객체지향 (object oriented)

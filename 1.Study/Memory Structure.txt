@@ -1,0 +1,49 @@
+● 자바의 데이터 영역
+
+	  |     Stack     |     Heap     |     Static     |
+	----------------------------------------------------
+	  |               |				 |				  |
+	  |				  |				 |				  |
+	  |				  |				 |				  |
+	  |				  |				 |				  |
+	  |				  |				 |				  |
+	----------------------------------------------------
+
+
+	public class MemoryArea{
+		int memberVar;
+		public static void main(String args[])
+		{
+			int num = 10;
+			System.out.println(num);
+		}
+	}
+
+
+	- int memberVar -> 클래스의 멤버변수는 heap 영역에 저장된다.
+
+	- String args
+	  int num		  -> 로컬변수는 stack 영역에 저장된다.
+
+
+
+	○ Stack 영역
+
+	  LIFO 방식으로, 메소드 호출시 해당 메소드 안에서 사용되는 로컬변수, 매개변수, 리턴 값 등이 저장된다.
+
+
+	○ Heap 영역
+
+	  Java의 Object들(new 연산자를 이용하여 할당된 객체나 배열 등)이 저장되는 공간이다.
+	  LifeTime에 따라 짧은 객체는 new 영역에 할당되고, 길다고 판단되는 객체는 old 영역에 할당된다.
+
+	  Garbage Collector를 통해 메모리를 반환한다.
+
+
+	○ Static 영역
+	  
+	  Class 영역, Method 영역, Code 영역으로도 불린다.
+
+	  클래스에 대한 정보(filed와 method), Constant Pool(상수 풀), Static Variable(스태틱 변수), final Variable 등이 저장된다.
+
+
