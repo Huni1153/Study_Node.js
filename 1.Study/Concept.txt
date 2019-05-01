@@ -75,6 +75,14 @@
 	  그래서 x==1 처럼 사용하는 것이 불가능하고, x==true 처럼 사용해야한다.
 	  조건식도 마찬가지로 while(true) 처럼 사용해야 한다.
 
+○ Java는 Call by Value 밖에 없다.
+
+	- 자바는 Stack영역 값 Copy밖에 되지 않는다.(Call by Value)
+	- 자바는 Call by Value 밖에 안일어 나기 때문에 객체들을 함수에 
+	  주고 받으면 얕은 복사가 일어난다.
+	- 객체는 Stack 영역이 아닌 heap 영역에 할당되므로 값 copy가 되지 않는다.
+	   ↓
+	  자바에서 객체란 : 하나의 공간에 하나의 데이터가 들어가는것. (Primitive type)을 제외하고는 모두 객체.
 
 
 
