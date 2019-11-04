@@ -1,5 +1,5 @@
 "# Huni's Portfolio" 
-# Huni's Portfolio [![Build Status](https://github.com/Huni1153/Portfolio)](https://github.com/Huni1153/Portfolio)
+# Huni's Portfolio [![Build Status](https://github.com/Huni1153/Portfolio)](https://travis-ci.org/kunny/blog_samples.svg?branch=master)
 
 
 
