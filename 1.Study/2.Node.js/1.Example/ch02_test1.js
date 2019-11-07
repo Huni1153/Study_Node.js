@@ -15,6 +15,7 @@ var Person1 = {name:"박세훈",age:29};
 //var Person2 = {name:"박초이",age:25};
 Person1 = {name:"박초이",age:25};
 console.dir(Person1);
+console.dir(Person1);
 //console.dir(Person2);
 
 console.log('argv 속성의 파라미터 수 : ' + process.argv.length);
