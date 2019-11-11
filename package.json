@@ -1,0 +1,23 @@
+{
+  "name": "study_node",
+  "version": "1.0.0",
+  "description": "\"# Huni's Study\" \r # Huni's  (https://github.com/Huni1153/Study_Node.js)",
+  "main": "index.js",
+  "dependencies": {
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huni1153/Study_Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huni1153/Study_Node.js/issues"
+  },
+  "homepage": "https://github.com/Huni1153/Study_Node.js#readme"
+}
