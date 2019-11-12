@@ -49,3 +49,44 @@ console.log('보낸 값은 숫자냐?',testFnt(1,2));
 console.log('리턴 값의 타입',typeof(testFnt));
 console.log('리턴 값의 타입',typeof(testFnt(1,2)));
 // 함수를 호출하기전의 리턴 값의 타입과 호출하고 나서 리턴 갑의 타입이 다르네..?
+
+
+
+// Person객체를 생성하고 Person 객체에 add함수를 속성으로 추가
+var Person = {};
+
+Person.age = 29;
+Person.name = '박세훈';
+Person.add = function(a,b)
+{
+    return a + b;
+};
+
+console.log('Person 객체의 함수 호출 : %d',Person.add(10,10));
+
+// Person객체를 생성하고 oper변수에 add함수를 속성으로 추가한 후 oper변수를 Person객체에 추가
+var Person2 = {};
+
+Person2.age = 25;
+Person2.name = '박초이';
+
+var oper = function(a,b){
+    return a + b;
+};
+
+Person2.add = oper;
+
+console.log('Person2 객체의 함수 호출 : %d',Person2.add(10,10));
+
+// Person객체를 만들면서 동시에 속성을 초기화
+var Person3 = {
+    age : 20,
+    name : '소녀시대',
+    add : function(a,b){
+        return a +b ;
+    }
+};
+
+console.log('Person3 객체의 함수 호출 : %d',Person3.add(10,10));
+
+
