@@ -11,6 +11,7 @@ console.log('이름 : %d',name);
 console.log('타입 확인 : ',typeof(name));
 // 문자열을 %d로 출력했을 때는 NaN(숫자가 아님)이 출력된다.
 
+// 객체 선언&초기화 방법
 var Person = {
     age : 29,
     name : '박세훈',
@@ -38,7 +39,7 @@ console.log('전화 : %s',Person2.mobile);
 
 // 굳이 힘들게 대괄호[]를 쓰지말고 .연산자로 쉽게 하자....
 
-
+// 함수의 선언과 사용 방법
 var test = {};
 var testFnt = function(a,b)
 {
