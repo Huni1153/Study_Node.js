@@ -4,7 +4,7 @@
   "description": "\"# Huni's Study\" \r # Huni's  (https://github.com/Huni1153/Study_Node.js)",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jade": "^1.11.0",
     "nconf": "^0.10.0"
   },
